@@ -1,0 +1,265 @@
+.jiahao{
+    background-position: -1331px -1113px;
+    width: 20px;
+    height: 20px;
+    border:2px solid #d9e0e7;
+    cursor: pointer;
+}
+
+.bi{
+    background-position: -836px -411px;
+    width: 20px;
+    height: 20px;
+    border:2px solid #d9e0e7;
+    cursor: pointer;
+}
+
+.bi:hover{
+    border-color: #d8d8d8;
+}
+
+.jiahao:hover{
+    border-color: #d8d8d8;
+}
+
+i{
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/index_z_1df72a4.png");
+    font-style: normal;
+}
+
+/*===================广告=====================*/
+.adver{
+    background: #fbfbfb;
+    height: 57px;
+}
+
+.adver .inner{
+    width: 1260px;
+    position: relative;
+}
+
+.adver .inner>.adver-left>img{
+    position: absolute;
+    top: -9999px;
+    left: -5px;
+    z-index: 99;
+    width: 1250px;
+}
+
+.adver-left{
+    height: 57px;
+}
+
+.adver .adver-left:hover img{
+    top: 57px;
+}
+
+.adver .adver-left:hover .datangwushuang{
+    opacity: 0;
+}
+
+.adver-left .logo{
+    padding-top: 5px;
+}
+
+.adver-right{
+
+}
+
+.adver-right ul{
+    font-size: 12px;
+}
+
+.adver-right>ul>li{
+    padding: 19px 15px;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    height: 18px;
+}
+
+.adver-right>ul>li:hover{
+    border-bottom-color: #b72124;
+    background-image: linear-gradient(#ebebeb,#fff);
+}
+.adver-right ul li:hover>a{
+    color: #b72124;
+}
+
+.adver-right>ul>li a{
+    color: #333333;
+}
+
+.adver-right ul li:last-of-type a{
+    width: 157px;
+    display:block;
+    line-height: 56px;
+    text-align: center;
+    height: 56px;
+    border-bottom: 2px solid transparent;
+}
+
+.adver-right>ul li:last-of-type:hover a{
+    border-bottom-color:#b72124;
+}
+
+.adver-right>ul li:last-of-type a:first-of-type{
+    margin-top: -19px;
+}
+
+
+.adver-right>ul>li:last-of-type{
+    animation: chongzhi 6s linear infinite;
+    padding: 19px 0;
+    border-bottom: 2px solid transparent;
+    /*overflow: hidden;*/
+}
+
+@keyframes chongzhi {
+    40%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-58px);
+    }
+
+    90%{
+        transform: translateY(-58px);
+    }
+
+    100%{
+        transform: translateY(-116px);
+    }
+}
+
+
+.adver-right ul .youximulu{
+    padding-right: 25px;
+}
+
+.adver-right ul .youximulu>a{
+    color: #bc2e2e;
+}
+
+.adver-right ul .youximulu .sanjiao{
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color:#bc2e2e;
+    position: absolute;
+    right: 10px;
+    top: 24px;
+}
+
+.adver-right ul .youximulu:hover .wangyigame{
+    top: 57px;
+}
+
+.adver-right ul .youximulu:hover .sanjiao{
+    transform: rotate(180deg) translateY(6px);
+}
+
+.youximulu .wangyigame{
+    position: absolute;
+    background: rgba(255,255,255,.9);
+    width: 1250px;
+    height: 480px;
+    z-index: 1000;
+    top: -9999px;
+    left: -970px;
+}
+
+
+.wangyigame .top{
+    padding-right: 58px;
+    background: rgba(240,240,240,.8);
+}
+
+.youximulu .wangyigame .wangyigame-left.pad{
+    border-right: 2px solid #eee;
+}
+
+.youximulu .wangyigame .wangyigame-left h3{
+    font-size: 20px;
+    color: #bf3939;
+    line-height: 59px;
+    padding-left: 20px;
+}
+
+.youximulu .wangyigame .wangyigame-left ul h4{
+    font-size: 18px;
+    color: #696969;
+    line-height: 50px;
+}
+
+.youximulu .wangyigame .wangyigame-left ul{
+    width: 152px;
+    padding-left: 20px;
+}
+
+.youximulu .wangyigame .wangyigame-left li{
+    float: none;
+    font-size: 14px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.youximulu .wangyigame .wangyigame-left li:hover{
+    color: #bf3939;
+}
+
+.wangyigame .wangyigame-left li:hover em{
+    animation: yao .6s linear;
+    transform-origin: 50%;
+}
+@keyframes yao {
+    25%{
+        transform: rotate(18deg);
+        transform-origin: 50%;
+    }
+
+    75%{
+        transform: rotate(-18deg);
+        transform-origin: 50%;
+    }
+
+    100%{
+        transform: rotate(0deg) translateY(0);
+        transform-origin: 50%;
+    }
+}
+
+.youximulu .wangyigame .wangyigame-left li em{
+    float: right;
+    width: 18px;
+    height: 9px;
+    margin-top: 9px;
+}
+
+.wangyigame .wangyigame-left li em.No1{
+    background-position: -97px -276px;
+}
+
+.wangyigame .wangyigame-left li em.new{
+    background-position: -97px -214px;
+}
+
+.wangyigame .wangyigame-left li em.hot{
+    background-position: -97px -153px;
+}
+
+.wangyigame .wangyigame-left .ul2{
+    padding-top: 50px;
+}
+
+.wangyigame .wangyigame-left .ul3{
+    padding-right: 40px;
+}
+
+.wangyigame .wangyigame-left .ul4{
+    padding-right: 0;
+    padding-left: 0;
+    width: 132px;
+}
